@@ -56,7 +56,7 @@ define(['lib/component'], function (defineComponent) {
 
     it('unbinds listeners using "off"', function () {
       var instance1 = (new Component).initialize(window.outerDiv);
-
+      debugger;
       var spy = jasmine.createSpy();
       instance1.on('click', spy);
       instance1.off('click', spy);

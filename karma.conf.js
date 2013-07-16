@@ -20,7 +20,7 @@ files = [
   REQUIRE_ADAPTER,
 
   // loaded without require
-  'bower_components/jquery/jquery.js',
+  'bower_components/zepto/zepto.js',
   'build/flight.js',
 
   // loaded with require
